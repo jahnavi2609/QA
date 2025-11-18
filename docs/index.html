@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>QA Automation Framework - Test Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; margin: 24px; color:#222 }
+      header { display:flex; align-items:center; gap:16px }
+      .summary { display:flex; align-items:center; gap:12px }
+      .report-frame { width:100%; height:900px; border:1px solid #ddd; margin-top:18px }
+      .note { font-size:0.9rem; color:#666 }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>QA Automation Framework</h1>
+      <div class="summary">
+        <img src="images/summary.svg" alt="Test summary" width="220" height="36" />
+        <div class="note">Report generated on 18-Nov-2025 — latest test run</div>
+      </div>
+    </header>
+
+    <p class="note">This page hosts the generated HTML test report. If you prefer screenshots of the test output, add them to <code>docs/images/</code> and commit.</p>
+
+    <iframe class="report-frame" src="report.html" title="pytest html report"></iframe>
+
+  </body>
+</html>
